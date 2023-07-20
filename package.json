@@ -1,0 +1,28 @@
+{
+  "name": "projetonodejs",
+  "version": "1.0.0",
+  "description": "projeto node express",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliaam/projeto-cadastro.git"
+  },
+  "author": "julia moraes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliaam/projeto-cadastro/issues"
+  },
+  "homepage": "https://github.com/juliaam/projeto-cadastro#readme"
+}
