@@ -1,7 +1,8 @@
-const express = require('express')
-const { Sequelize } = require('sequelize');
-const app = express()
+import express from "express";
+import { Sequelize } from "sequelize";
+export const app = express()
 const port = 8080
+
 
 // conectar sem o sequelize
 // const mysql = require('mysql2')

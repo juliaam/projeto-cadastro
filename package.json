@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "projeto node express",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
     "mysql2": "^3.5.2",
     "nodemon": "^3.0.1",
     "sequelize": "^6.32.1"
