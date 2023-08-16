@@ -1,8 +1,8 @@
 import express from "express";
 import { Sequelize } from "sequelize";
+import { userRouter } from './src/routes/userRouter.js'
 export const app = express()
 const port = 8080
-
 
 // conectar sem o sequelize
 // const mysql = require('mysql2')
@@ -25,6 +25,10 @@ sequelize.authenticate().then(() => {
   console.error('Unable to connect to the database: ', error);
 });
 
+// routes
+
+// let  = require('./src/routes/user')
+app.use('/api/user', userRouter);
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
